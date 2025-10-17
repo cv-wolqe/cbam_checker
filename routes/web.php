@@ -2,10 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CnCodeController;
+use App\Http\Controllers\ContactController;
+//get
+Route::get('/', [CnCodeController::class, 'index'])->name('home');
 
-Route::get('/', [CnCodeController::class, 'index']);
-Route::get('/contact', [\App\Http\Controllers\ContactController::class, 'index'])->name('contact');
-
-
+//post
 Route::post('/', [CnCodeController::class, 'show']);
-Route::post('/contact', [\App\Http\Controllers\ContactController::class, 'sendEmail'])->name('contact.submit');
+Route::post('/contact', [ContactController::class, 'sendEmail'])->name('contact.submit');
+Route::post('/report', [ContactController::class, 'sendReport'])->name('report.submit');
+

@@ -45,7 +45,7 @@
                         </div>
                     </form>
                     @elseif($result)
-                        <form method="POST" action="/contact" @class(['flex','flex-col','gap-6','justify-stretch'])>
+                        <form method="POST" action="{{ route('report.submit') }}" @class(['flex','flex-col','gap-6','justify-stretch'])>
 
                             @csrf
                             <input type="hidden" name="cn_code" value="{{ $result->cn_code }}">
@@ -418,7 +418,7 @@
     </p>
     <div @class(['flex','flex-col','bg-white','text-wolqedark','justify-center','items-center','rounded-w27','p-8','w-full','max-w-[1500px]','gap-8'])>
         <h3 @class(['text-2xl','w-full','items-left'])><span @class(['font-medium'])>CONTACT</span> FORM</h3>
-        <form method="POST" action="/contact" @class(['flex','flex-col','justify-center','items-center','gap-8','w-full'])>
+        <form method="POST" action="{{ route('contact.submit') }}" @class(['flex','flex-col','justify-center','items-center','gap-8','w-full'])>
         @csrf
         <input type="hidden" name="action" value="contact_form_submit">
         <div @class(['flex','flex-row','gap-8','w-full'])>
@@ -436,6 +436,11 @@
             <button content="" type="submit" @class(['relative','flex','flex-row','items-right','justify-end','text-wolqelight','hover:text-wolqedark','leading-[4rem]','border-2','border-white','rounded-w42','bg-wolqedark','pl-1','pr-10','w-[30%]','after:content-[attr(content)]','after:absolute','after:bg-[url(/public/images/button.png)]','after:top-0','after:left-0','hover:after:left-[85%]','after:h-full','after:aspect-square','after:bg-contain','after:transition-all','after:duration-700','transition-all','duration-700'])>send</button>
         </div>
         </form>
+        @if(session('success'))
+            <div class="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400" role="alert">
+                {{ session('success') }}
+            </div>
+        @endif
     </div>
 </section>
 @endsection

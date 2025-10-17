@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Redirect;
 
 class ContactController extends Controller
 {
@@ -27,7 +30,21 @@ class ContactController extends Controller
             'message' => $request->message
         ];
         // Send email using Laravel's Mail facade
-        Mail::to('christian.volk@wolqe.co')->send(new \App\Mail\ContactMail($details));
+        Mail::mailer('sendmail')->to('christian@cvolk.de')->send(new ContactMail($details));
+        return redirect()->route('home')->withFragment('contact')->with('success', 'Thank you for contacting us! We will get back to you soon.');
+    }
+    public function sendReport(Request $request) {
+        // Validate the request data
+        $request->validate([
+            'email' => 'required|string|max:255'
+        ]);
+
+        $details = [
+            
+            'email' => $request->email
+        ];
+        // Send email using Laravel's Mail facade
+        // Mail::to('christian.volk@wolqe.co')->send(new \App\Mail\ContactMail($details));
 
         return back()->with('success', 'Thank you for contacting us! We will get back to you soon.');
     }
