@@ -20,7 +20,7 @@
         </div>
         <div @class(['w-1/5','flex','flex-col','pl-8','pr-4'])>
             <div @class(['text-4xl','mb-8','uppercase'])>Social<span @class(['font-bold'])>Media.</span></div>
-            <div><img src="images/linkedin.svg" @class(['w-16','h-16'])></div>
+            <div><a href="https://www.linkedin.com/company/wolqe/posts/?feedView=all" target="_blank"><img src="images/linkedin.svg" @class(['w-16','h-16'])></a></div>
         </div>
     </div>
     <!-- Zweite Zeile: Copyright -->

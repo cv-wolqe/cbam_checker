@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-<section @class(['relative','bg-white'])>
+<section id="services" @class(['relative','bg-white'])>
     <div @class(['relative','bg-[url(/public/images/truck_full.webp)]','bg-bottom','rounded-b-w51'])>
         <div @class(['relative','w-full','h-full','flex','flex-row','min-h-[100vh]','items-center','justify-center',"text-white",'bg-gradient-to-r','from-transparent','from-25%','to-wolqedarkopacity','rounded-b-w51'])>
             <div @class(['relative','container','mx-auto','p-4','flex','flex-col-reverse','xl:flex-row','justify-between','xl:items-end','items-center','h-full','gap-8','sm:gap-16','pt-16'])>
@@ -158,7 +158,7 @@
     }
 </script>
 @endpush
-<section @class(['relative','flex','flex-col','gap-16','bg-white','text-wolqedark','justify-center','items-center','min-h-[100vh]'])>
+<section id="knowledgebase" @class(['relative','flex','flex-col','gap-16','bg-white','text-wolqedark','justify-center','items-center','min-h-[100vh]'])>
     <div content="" @class(['flex','flex-col','bg-[#bfc4cd]','text-wolqedark','justify-center','items-center', 'rounded-w51','w-full'])>
         <div @class(['relative','flex','flex-col','items-left','justify-center',"text-white",'bg-wolqedark','rounded-w51','sm:pl-[15%]','sm:pr-[15%]','p-16', 'min-h-full','after:content-[attr(content)]','after:absolute','after:w-full','after:h-full','after:top-0','after:left-[70%]','after:bg-[url(/public/images/corner.svg)]','after:bg-top-right','after:bg-size-[350px]','after:bg-no-repeat','after:overflow-hidden','after:rounded-w51','after:z-1','overflow-hidden'])>
             <h2 @class(['text-4xl', 'font-normal','tracking-wide', 'mb-4', '2xl:leading-[1]','w-[65%]' ])><span @class(['font-semibold'])>CBAM FOR MANUFACTURERS:</span> WHAT YOU NEED TO KNOW ABOUT EU CARBON EMISSION REGULATIONS</h2>
@@ -285,7 +285,7 @@
         <!-- content area -->
         <div @class(['relative','min-h-[30vh]','flex','flex-col','justify-center','items-center','p-16','text-white','z-2','gap-16'])>
             <h2 @class(['text-2xl','text-medium'])>Do you need a customized solution for your company now?</h2>
-            <a before="" href="" @class(['relative','flex','flex-row','items-center','justify-center','text-white','leading-[4rem]','border-2','border-wolqelight','rounded-w42','bg-transparent','w-[48%]','overflow-hidden','before:content-[attr(before)]','before:absolute','before:w-full','before:h-full','before:left-[-100%]','before:bg-white','before:rounded-w42','hover:before:left-[0]','hover:text-wolqedark','transition-all','before:duration-700','duration-700','before:z-[0]'])><p @class(['z-[1]'])>Contact us now and receive non-binding advice (from our CBAM professionals)</p></a>
+            <a before="" href="/#contact" @class(['relative','flex','flex-row','items-center','justify-center','text-white','leading-[4rem]','border-2','border-wolqelight','rounded-w42','bg-transparent','w-[48%]','overflow-hidden','before:content-[attr(before)]','before:absolute','before:w-full','before:h-full','before:left-[-100%]','before:bg-white','before:rounded-w42','hover:before:left-[0]','hover:text-wolqedark','transition-all','before:duration-700','duration-700','before:z-[0]'])><p @class(['z-[1]'])>Contact us now and receive non-binding advice (from our CBAM professionals)</p></a>
         </div>
         <!-- / content area -->
         <!-- rounded bottom area -->
@@ -408,7 +408,7 @@
     </div>
     <!-- slider with blog items -->
 </section>
-<section @class(['relative','flex','flex-col','justify-center','items-center','min-h-[30vh]','p-16','text-white','gap-8'])>
+<section id="contact" @class(['relative','flex','flex-col','justify-center','items-center','min-h-[30vh]','p-16','text-white','gap-8'])>
     <h2 @class(['text-4xl'])><span @class(['font-semibold'])>ACT NOW</span> - STAY COMPETITIVE</h2>
     <p>
         The transition phase is in full effect. Ensure your business is prepared for the future of CBAM Europe. A timely response to these regulations will secure your market position and build trust with your EU partners. It's the best way to be proactive about the impact climate change will have on your business.
