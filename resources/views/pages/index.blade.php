@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-<section id="services" @class(['relative','bg-white'])>
+<section @class(['relative','bg-white'])>
     <div @class(['relative','bg-[url(/public/images/truck_full.webp)]','bg-bottom','rounded-b-w51'])>
         <div @class(['relative','w-full','h-full','flex','flex-row','min-h-[100vh]','items-center','justify-center',"text-white",'bg-gradient-to-r','from-transparent','from-25%','to-wolqedarkopacity','rounded-b-w51'])>
             <div @class(['relative','container','mx-auto','p-4','flex','flex-col-reverse','xl:flex-row','justify-between','xl:items-end','items-center','h-full','gap-8','sm:gap-16','pt-16'])>
@@ -51,12 +51,23 @@
                             <input type="hidden" name="cn_code" value="{{ $result->cn_code }}">
                             <input type="hidden" name="country" value="{{ $result->origin_country }}">
                             <div @class(['flex','flex-col','gap-6','justify-stretch','bg-[#bfc4cd11]','rounded-w21'])>
+                                @if($result->cbam_applies)
+                                <input type="hidden" name="cbam_applies" value="1">
                                 <p @class(['p-10'])>
                                 Your result shows that your products are affected by CBAM regulations. Enter your email to receive a detailed PDF report with key deadlines and first steps for your business.
                                 </p>
                                 <p @class(['font-semibold','text-lg'])>
                                     Get your detailed report now!
                                 </p>
+                                @else
+                                <input type="hidden" name="cbam_applies" value="0">
+                                <p @class(['p-10'])>
+                                Your result shows that your products are NOT affected by CBAM regulations. Enter your email to receive a information PDF about CBAM Regulations.
+                                </p>
+                                <p @class(['font-semibold','text-lg'])>
+                                    Get your detailed information now!
+                                </p>
+                                @endif
                                 <div >
                                     <label for="email" @class(['text-left','min-w-3xs', 'hidden']) >E-Mail</label>
                                     <input type="email" id="email" name="email" @class(['text-wolqelight','border-2','border-wolqelight','rounded-w21','bg-[#bfc4cd11]','pl-5','pr-5','w-full']) placeholder="Your E-Mail here" required>
@@ -293,7 +304,7 @@
         <!-- / rounded bottom area -->
     </div>
 </section>
-<section @class(['bg-wolqelight'])>
+<section id="services" @class(['bg-wolqelight'])>
     <div @class(['relative','flex','flex-col','gap-16','bg-white','text-wolqedark','justify-center','items-center','min-h-[45vh]','p-16'])>
         <h2 @class(['text-4xl'])><span @class(['font-semibold'])>YOUR COMPETITIVE ADVANTAGE</span> THROUGH SEAMLESS CBAM REPORTING</h2>
         <div>
