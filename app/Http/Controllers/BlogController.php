@@ -6,9 +6,11 @@ use Illuminate\Http\Request;
 
 class BlogController extends Controller
 {
-    public function index(Request $request) {
-        $postId = $request->query('post');
-        switch($postId){
+    public function index($post) {
+        if(!is_numeric($post)){
+            $post = "1";
+        }
+        switch($post){
             case '1':
                 return view('blog/post_1');
             case '2':
