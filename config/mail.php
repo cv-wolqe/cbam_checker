@@ -51,7 +51,10 @@ return [
         'mailgun' => [
             'transport' => 'mailgun'
         ],
-
+        'smtp2go' => [
+            'transport' => 'smpt2go',
+            'api_key' => env('SMTP2GO_API_KEY'),
+        ],
         'ses' => [
             'transport' => 'ses',
         ],

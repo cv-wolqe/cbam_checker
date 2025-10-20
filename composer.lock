@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ed7d0a0fb70ca06336195e141a0637f",
+    "content-hash": "1feaf145be5e1d4e29cb8c0da0ca97ff",
     "packages": [
         {
             "name": "brick/math",
@@ -2109,6 +2109,54 @@
                 }
             ],
             "time": "2025-03-24T10:02:05+00:00"
+        },
+        {
+            "name": "motomedialab/smtp2go",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/motomedialab/laravel-smtp2go.git",
+                "reference": "92fdd812cf891703bcf9f3ebee1cb2cc594847f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/motomedialab/laravel-smtp2go/zipball/92fdd812cf891703bcf9f3ebee1cb2cc594847f7",
+                "reference": "92fdd812cf891703bcf9f3ebee1cb2cc594847f7",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.0",
+                "laravel/framework": "^9.0|^10.0|^11.0|^12.0",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.0",
+                "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
+                "phpunit/phpunit": "^8.5.8|^9.5.21|^10.0.7|^10.5|^11.0|^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Motomedialab\\Smtp2Go\\Providers\\Smtp2GoServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Motomedialab\\Smtp2Go\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Send emails via API using the first-class email courier SMTP2Go",
+            "support": {
+                "issues": "https://github.com/motomedialab/laravel-smtp2go/issues",
+                "source": "https://github.com/motomedialab/laravel-smtp2go/tree/v1.2.1"
+            },
+            "time": "2025-02-25T16:32:11+00:00"
         },
         {
             "name": "nesbot/carbon",
