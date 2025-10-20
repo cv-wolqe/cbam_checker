@@ -30,7 +30,7 @@ class ContactController extends Controller
             'message' => $request->message
         ];
         // Send email using Laravel's Mail facade
-        Mail::mailer('smtp2go')->to('christian.volk@wolqe.co')->send(new ContactMail($details));
+        Mail::mailer('smtp')->to('christian.volk@wolqe.co')->send(new ContactMail($details));
         return redirect()->route('home')->withFragment('contact')->with('success', 'Thank you for contacting us! We will get back to you soon.');
     }
     public function sendReport(Request $request) {
