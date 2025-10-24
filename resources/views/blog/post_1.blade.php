@@ -2,7 +2,7 @@
 @section('content')
 <section @class(['flex','flex-col','justify-center','items-center','bg-white'])>
     <div @class(['flex','flex-col','text-wolqedark','max-w-[1400px]','pt-[200px]','gap-8'])>
-        <h1 @class(['text-4xl','uppercase','pb-4'])><span @class(['font-bold'])>Key Deadlines</span> Manufacturers Outside the EU Must Know</h1>
+        <h1 @class(['text-2xl','sm:text-4xl','uppercase','pb-4'])><span @class(['font-bold'])>Key Deadlines</span> Manufacturers Outside the EU Must Know</h1>
         <h2 @class(['text-2xl','uppercase','pb-4'])><span @class(['font-bold'])>Introduction:</span> Why CBAM Deadlines Matter for Your Business</h2>
         <div>
             <p><span>The EU Carbon Border Adjustment Mechanism(CBAM) is no longer a future regulation—it's active, and non-compliance carries financial consequences. If you manufacture cement, steel, aluminum, fertilizers, hydrogen, or electricity outside the EU and export these goods to European markets, <b>understanding CBAM deadlines is critical to maintaining market access</b>.</span></p>

@@ -2,7 +2,7 @@
 @section('content')
 <section @class(['flex','flex-col','justify-center','items-center','bg-white'])>
     <div @class(['flex','flex-col','text-wolqedark','max-w-[1400px]','pt-[200px]','gap-8'])>
-        <h1 @class(['text-4xl','uppercase','pb-4'])><span @class(['font-bold'])>Guide for Importers:</span> Stay Compliant in 2025 and Beyond</h1>
+        <h1 @class(['text-2xl','sm:text-4xl','uppercase','pb-4'])><span @class(['font-bold'])>Guide for Importers:</span> Stay Compliant in 2025 and Beyond</h1>
         <h2 @class(['text-2xl','uppercase','pb-4'])><span @class(['font-bold'])>Introduction:</span> What EU Importers Need to Know About CBAM Reporting</h2>
 
         <p>If your company imports cement, steel, aluminum,

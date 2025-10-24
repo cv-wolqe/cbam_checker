@@ -2,7 +2,7 @@
 @section('content')
 <section @class(['flex','flex-col','justify-center','items-center','bg-white'])>
     <div @class(['flex','flex-col','text-wolqedark','max-w-[1400px]','pt-[200px]','gap-8'])>
-        <h1 @class(['text-4xl','uppercase','pb-4'])><span @class(['font-bold'])>Compliance for Manufacturers:</span> Calculate and Verify Embedded Emissions Before 2026</h1>
+        <h1 @class(['text-2xl','sm:text-4xl','uppercase','pb-4'])><span @class(['font-bold'])>Compliance for Manufacturers:</span> Calculate and Verify Embedded Emissions Before 2026</h1>
         <h2 @class(['text-2xl','uppercase','pb-4'])><span @class(['font-bold'])>Introduction:</span> Why CBAM Compliance is a Competitive Advantage</h2>
 
         <p>For manufacturers outside the EU exporting cement, steel, aluminum, fertilizers, or hydrogen, <strong>CBAM compliance is no longer optional</strong>—it's a market access requirement. Starting in 2026, EU importers will purchase CBAM certificates based on the <strong>embedded emissions</strong> of your products. If you cannot provide verified emissions data, your customers will face significantly higher costs due to <strong>default emission values</strong>.</p>

@@ -309,8 +309,8 @@
         <!-- content area -->
         <div @class(['relative','min-h-[30vh]','flex','flex-col','justify-center','items-center','p-4','sm:p:16','text-white','z-2','gap-16'])>
             <h2 @class(['sm:text-2xl','text-medium'])>Do you need a customized solution for your company now?</h2>
-            <a before="" href="/#contact" @class(['relative','flex','flex-row','items-center','justify-center','text-white','leading-[4rem]','border-2','border-wolqelight','rounded-w42','bg-transparent','w-[90%]','sm:w-[48%]','overflow-hidden','before:content-[attr(before)]','before:absolute','before:w-full','before:h-full','before:left-[-100%]','before:bg-white','before:rounded-w42','hover:before:left-[0]','hover:text-wolqedark','transition-all','before:duration-700','duration-700','before:z-[0]'])>
-                <p @class(['z-[1]','text-sm'])>Contact us now and receive non-binding advice (from our CBAM professionals)</p>
+            <a before="" href="/#contact" @class(['relative','flex','flex-row','items-center','justify-center','text-white','leading-[4rem]','border-2','border-wolqelight','rounded-w42','bg-transparent','w-[90%]','sm:w-[35%]','overflow-hidden','before:content-[attr(before)]','before:absolute','before:w-full','before:h-full','before:left-[-100%]','before:bg-white','before:rounded-w42','hover:before:left-[0]','hover:text-wolqedark','transition-all','before:duration-700','duration-700','before:z-[0]'])>
+                <p @class(['relative','z-[1]','text-sm','sm:text-xl','text-center','!leading-[4rem]'])>Contact us now and receive non-binding advice (from our CBAM professionals)</p>
             </a>
         </div>
         <!-- / content area -->
@@ -383,7 +383,7 @@
     <!-- slider with blog items -->
     <div @class(['relative','w-full','overflow-hidden'])>
         <div @class(['swiper','w-full','sm:w-[80%]','h-full'])>
-            <div @class(['swiper-wrapper','!h-full','flex','flex-row','justify-center'])>
+            <div @class(['swiper-wrapper','!h-full','justify-center'])>
 
                 <div @class(['swiper-slide','flex','justify-center','items-center','h-full'])>
                     <div @class(['relative','flex','flex-col','justify-start','items-center','rounded-w27','min-w-[300px]','sm:min-w-[400px]','max-w-[600px]','min-h-[400px]','bg-[#bfc4cd22]'])>
@@ -404,8 +404,8 @@
                         </div>
                         <div @class(['relative','w-full','text-left','max-w-[580px]','p-6'])>
                             <div @class(['flex','flex-col','gap-4'])>
-                                <h3 @class(['text-md','font-medium'])>CBAM Guide: The Most Important Deadlines and Steps.</h3>
-                                <p @class(['text-md','font-light'])>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laor Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
+                                <h3 @class(['text-md','font-medium'])>Reporting Guide for Importers: Stay Compliant in 2025 and Beyond</h3>
+                                <p @class(['text-md','font-light'])>Complete CBAM reporting guide for EU importers. Learn quarterly reporting requirements, data collection from suppliers, and compliance strategies to avoid penalties in 2025-2026.</p>
                                 <a href="{{ route('blog',['post'=> 2])}}" @class(['w-[46px]','rounded-[23px]','border-2','border-white','aspect-square','flex','justify-center','items-center','text-2xl','sm:text-4xl','pb-[3px]'])>&raquo;</a>
                             </div>
                         </div>
@@ -417,8 +417,8 @@
                         </div>
                         <div @class(['relative','w-full','text-left','max-w-[580px]','p-6'])>
                             <div @class(['flex','flex-col','gap-4'])>
-                                <h3 @class(['text-md','font-medium'])>CBAM Guide: The Most Important Deadlines and Steps.</h3>
-                                <p @class(['text-md','font-light'])>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laor Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
+                                <h3 @class(['text-md','font-medium'])>Compliance for Manufacturers: Calculate and Verify Embedded Emissions before 2026</h3>
+                                <p @class(['text-md','font-light'])>Learn how manufacturers outside the EU can calculate embedded emissions, implement monitoring systems, and prepare for CBAM verification requirements to maintain competitive access to EU markets.</p>
                                 <a href="{{ route('blog',['post'=> 3])}}" @class(['w-[46px]','rounded-[23px]','border-2','border-white','aspect-square','flex','justify-center','items-center','text-2xl','sm:text-4xl','pb-[3px]'])>&raquo;</a>
                             </div>
                         </div>
