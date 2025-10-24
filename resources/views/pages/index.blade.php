@@ -96,7 +96,7 @@
 <section @class(['flex','flex-col','gap-16','p-4','sm:p:16','bg-white','text-wolqedark','justify-center','items-center'])>
     <div @class(['flex','flex-col','gap-8','p-8','bg-white','text-wolqedark','justify-center','items-center'])>
         <h2 @class(['text-2xl','sm:text-4xl', 'font-normal' ,'tracking-wide', 'mb-4' , '2xl:leading-[0]' , ])><span @class(['font-semibold'])>NEW CBAM REGULATIONS:</span> THE CHALLENGE FOR MANUFACTURERS</h2>
-        <p @class(['sm:w-[75%]','text-lg','font-light','text-center'])>
+        <p @class(['sm:w-[75%]','text-lg','font-light','text-left','sm:text-center'])>
             The EU's Carbon Border Adjustment Mechanism (CBAM) introduces new requirements for your production. As a manufacturer of goods imported into the EU market, you are now responsible for accurate carbon reporting. Without proper CBAM compliance, your goods may face administrative hurdles and penalties, directly impacting your business.
         </p>
     </div>
@@ -111,7 +111,7 @@
             <div content="Hydrogen" @class(['relative','mx-3','mt-6','flex','flex-col','items-center', 'aspect-square' , 'justify-center' ,'rounded-w27','bg-[url(/public/images/hydrogen.webp)]','bg-cover','bg-center','after:opacity-0','hover:after:opacity-100','transition-all','after:duration-700','after:content-[attr(content)]','after:absolute','after:w-full','after:h-full','after:rounded-w27','after:inset-0','after:bg-wolqedark','after:bg-opacity-50','after:flex','after:justify-center','after:items-center','after:text-white','after:font-light','after:text-3xl'])></div>
         </div>
     </div>
-    <div @class(['flex','flex-col','gap-16','p-8','bg-white','text-wolqedark','justify-center','items-center','w-full'])>
+    <div @class(['flex','flex-col','gap-16','pt-16','sm:pt-[none]','p-4','sm:p-8','bg-white','text-wolqedark','justify-center','items-center','w-full'])>
         <h3 @class(['text-xl','sm:text-2xl', 'font-medium' ,'tracking-wide', 'mb-4' , 'sm:leading-[0]' , ])>Why it matters for your business:</h3>
         <div @class(['grid','grid-cols-1','md:grid-cols-3','text-lg','font-light','w-full','gap-8'])>
             <div @class(['flex','flex-row','gap-4','mb-8'])>
@@ -171,16 +171,16 @@
 </script>
 @endpush
 <section id="knowledgebase" @class(['relative','flex','flex-col','gap-16','bg-white','text-wolqedark','justify-center','items-center','min-h-[100vh]'])>
-    <div content="" @class(['flex','flex-col','bg-[#bfc4cd]','text-wolqedark','justify-center','items-center', 'rounded-w51' ,'w-full'])>
-        <div @class(['relative','flex','flex-col','items-left','justify-center',"text-white",'bg-wolqedark','rounded-w51','sm:pl-[15%]','sm:pr-[15%]','p-4','sm:p:16', 'min-h-full' ,'after:content-[attr(content)]','after:absolute','after:w-full','after:h-full','after:top-0','after:left-[70%]','after:bg-[url(/public/images/corner.svg)]','after:bg-top-right','after:bg-size-[350px]','after:bg-no-repeat','after:overflow-hidden','after:rounded-w51','after:z-1','overflow-hidden'])>
-            <h2 @class(['text-2xl','sm:text-4xl', 'font-normal' ,'tracking-wide', 'mb-4' , '2xl:leading-[1]' ,'w-[65%]' ])><span @class(['font-semibold'])>CBAM FOR MANUFACTURERS:</span> WHAT YOU NEED TO KNOW ABOUT EU CARBON EMISSION REGULATIONS</h2>
+    <div  @class(['flex','flex-col','bg-[#bfc4cd]','text-wolqedark','justify-center','items-center', 'rounded-w51' ,'w-full','gap-8'])>
+        <div content="" @class(['relative','flex','flex-col','items-left','justify-center',"text-white",'bg-wolqedark','rounded-w51','sm:pl-[15%]','sm:pr-[15%]','p-4','pt-8','sm:p:16', 'min-h-full' ,'after:content-[attr(content)]','after:absolute','after:w-full','after:h-full','after:top-0','after:left-[70%]','after:bg-[url(/public/images/corner.svg)]','after:bg-top-right','after:bg-size-[350px]','after:bg-no-repeat','after:overflow-hidden','after:rounded-w51','after:z-1','overflow-hidden'])>
+            <h2 @class(['text-2xl','sm:text-4xl', 'font-normal' ,'tracking-wide', 'mb-4' , '2xl:leading-[1]' ,'sm:w-[65%]' ])><span @class(['font-semibold'])>CBAM FOR MANUFACTURERS:</span> WHAT YOU NEED TO KNOW ABOUT EU CARBON EMISSION REGULATIONS</h2>
             <h3 @class(['text-xl', 'font-normal' ,'tracking-wide', 'mb-4' , '2xl:leading-[1]' ,'w-[65%]' ])>A Practical Guide to CBAM Compliance and Emissions Reporting</h3>
             <p>The European Union has introduced the Carbon Border Adjustment Mechanism (CBAM) to regulate the import of CO2-intensive goods. For you as a manufacturer, this means that you must carefully record and report the carbon emissions of your products. This not only secures your access to the EU market, but also your competitive advantage.</p>
-            <div>
+            <div @class(['z-[2]'])>
                 <div @class(['border-t','border-wolqelight','rounded-t-w27','mt-8','mb-8','pl-8','pr-8','w-full'])>
                     <button onclick="toggleAccordion(1)" @class(['w-full','flex','justify-between','items-center','py-5','text-wolqelight'])>
                         <span>How does the verification process work?</span>
-                        <span id="icon-1" @class(['text-wolqelight','transition-transform', 'duration-300' ])>
+                        <span id="icon-1" @class(['relative','text-wolqelight','transition-transform', 'duration-300' ])>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
                                 <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"></path>
                             </svg>
@@ -195,7 +195,7 @@
                 <div @class(['border-t','border-wolqelight','rounded-t-w27','mt-8','mb-8','pl-8','pr-8','w-full'])>
                     <button onclick="toggleAccordion(2)" @class(['w-full','flex','justify-between','items-center','py-5','text-wolqelight'])>
                         <span>Why is early verification crucial?</span>
-                        <span id="icon-2" @class(['text-wolqelight','transition-transform', 'duration-300' ])>
+                        <span id="icon-2" @class(['relative','text-wolqelight','transition-transform', 'duration-300' ])>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
                                 <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"></path>
                             </svg>
@@ -208,9 +208,9 @@
                     </div>
                 </div>
                 <div @class(['border-t','border-wolqelight','rounded-t-w27','mt-8','mb-8','pl-8','pr-8','w-full'])>
-                    <button onclick="toggleAccordion(3)" @class(['w-full','flex','justify-between','items-center','py-5','text-wolqelight'])>
-                        <span>Are there options for optimizing emissions?</span>
-                        <span id="icon-3" @class(['text-wolqelight','transition-transform', 'duration-300' ])>
+                    <button onclick="toggleAccordion(3)" @class(['relative','w-full','flex','flex-row','justify-between','items-center','my-5','text-wolqelight'])>
+                        <span @class(['grow','text-left'])>Are there options for optimizing emissions?</span>
+                        <span id="icon-3" @class(['relative','text-wolqelight','transition-transform', 'duration-300' ])>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
                                 <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"></path>
                             </svg>
@@ -225,7 +225,7 @@
                 <div @class(['border-t','border-wolqelight','rounded-t-w27','mt-8','mb-8','pl-8','pr-8','w-full'])>
                     <button onclick="toggleAccordion(4)" @class(['w-full','flex','justify-between','items-center','py-5','text-wolqelight'])>
                         <span>Which products are affected? </span>
-                        <span id="icon-4" @class(['text-wolqelight','transition-transform', 'duration-300' ])>
+                        <span id="icon-4" @class(['relative','text-wolqelight','transition-transform', 'duration-300' ])>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
                                 <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"></path>
                             </svg>
@@ -240,7 +240,7 @@
                 <div @class(['border-t','border-wolqelight','rounded-t-w27','mt-8','mb-8','pl-8','pr-8','w-full'])>
                     <button onclick="toggleAccordion(5)" @class(['w-full','flex','justify-between','items-center','py-5','text-wolqelight'])>
                         <span>What is the difference between the transition phase and the final phase?</span>
-                        <span id="icon-5" @class(['text-wolqelight','transition-transform', 'duration-300' ])>
+                        <span id="icon-5" @class(['relative','text-wolqelight','transition-transform', 'duration-300' ])>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
                                 <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"></path>
                             </svg>
