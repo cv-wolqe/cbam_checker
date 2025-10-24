@@ -3,7 +3,7 @@
 <section @class(['relative','bg-white'])>
     <div @class(['relative','bg-[url(/public/images/truck_full.webp)]','bg-bottom','rounded-b-w51'])>
         <div @class(['relative','w-full','h-full','flex','flex-row','min-h-[100vh]','items-center','justify-center',"text-white",'bg-gradient-to-r','from-transparent','from-25%','to-wolqedarkopacity','rounded-b-w51'])>
-            <div @class(['relative','container','mx-auto','p-4','flex','flex-col-reverse','xl:flex-row','justify-between','xl:items-end','items-center','h-full','gap-8','sm:gap-16','pt-16'])>
+            <div @class(['relative','container','mx-auto','p-4','flex','flex-col-reverse','xl:flex-row','justify-between','xl:items-end','items-center','h-full','gap-8','sm:gap-16','pt-[200px]'])>
                 <div @class(['text-center','flex','flex-col','justify-center','items-center','p-12','gap-8', 'bg-wolqedark','rounded-w51','shadow-lg'])>
                     <h2 @class(['text-2xl','sm:text-4xl','uppercase','font-light','text-[#bfc4cd]'])>Will your <span @class(['text-white','font-semibold'])>export<br />get stuck</span> from 2026?</h2>
                     <p @class(['text-lg','font-medium','text-white'])>Effortlessly assess and manage your CBAM obligations</p>
@@ -95,8 +95,8 @@
 </section>
 <section @class(['flex','flex-col','gap-16','p-16','bg-white','text-wolqedark','justify-center','items-center'])>
     <div @class(['flex','flex-col','gap-8','p-8','bg-white','text-wolqedark','justify-center','items-center'])>
-        <h2 @class(['text-4xl', 'font-normal','tracking-wide', 'mb-4', '2xl:leading-[0]', ])><span @class(['font-semibold'])>NEW CBAM REGULATIONS:</span> THE CHALLENGE FOR MANUFACTURERS</h2>
-        <p @class(['w-[75%]','text-lg','font-light','text-center'])>
+        <h2 @class(['text-2xl','sm:text-4xl', 'font-normal','tracking-wide', 'mb-4', '2xl:leading-[0]', ])><span @class(['font-semibold'])>NEW CBAM REGULATIONS:</span> THE CHALLENGE FOR MANUFACTURERS</h2>
+        <p @class(['sm:w-[75%]','text-lg','font-light','text-center'])>
         The EU's Carbon Border Adjustment Mechanism (CBAM) introduces new requirements for your production. As a manufacturer of goods imported into the EU market, you are now responsible for accurate carbon reporting. Without proper CBAM compliance, your goods may face administrative hurdles and penalties, directly impacting your business.
         </p>
     </div>
@@ -172,7 +172,7 @@
 <section id="knowledgebase" @class(['relative','flex','flex-col','gap-16','bg-white','text-wolqedark','justify-center','items-center','min-h-[100vh]'])>
     <div content="" @class(['flex','flex-col','bg-[#bfc4cd]','text-wolqedark','justify-center','items-center', 'rounded-w51','w-full'])>
         <div @class(['relative','flex','flex-col','items-left','justify-center',"text-white",'bg-wolqedark','rounded-w51','sm:pl-[15%]','sm:pr-[15%]','p-16', 'min-h-full','after:content-[attr(content)]','after:absolute','after:w-full','after:h-full','after:top-0','after:left-[70%]','after:bg-[url(/public/images/corner.svg)]','after:bg-top-right','after:bg-size-[350px]','after:bg-no-repeat','after:overflow-hidden','after:rounded-w51','after:z-1','overflow-hidden'])>
-            <h2 @class(['text-4xl', 'font-normal','tracking-wide', 'mb-4', '2xl:leading-[1]','w-[65%]' ])><span @class(['font-semibold'])>CBAM FOR MANUFACTURERS:</span> WHAT YOU NEED TO KNOW ABOUT EU CARBON EMISSION REGULATIONS</h2>
+            <h2 @class(['text-2xl','sm:text-4xl', 'font-normal','tracking-wide', 'mb-4', '2xl:leading-[1]','w-[65%]' ])><span @class(['font-semibold'])>CBAM FOR MANUFACTURERS:</span> WHAT YOU NEED TO KNOW ABOUT EU CARBON EMISSION REGULATIONS</h2>
             <h3 @class(['text-xl', 'font-normal','tracking-wide', 'mb-4', '2xl:leading-[1]','w-[65%]' ])>A Practical Guide to CBAM Compliance and Emissions Reporting</h3>
             <p>The European Union has introduced the Carbon Border Adjustment Mechanism (CBAM) to regulate the import of CO2-intensive goods. For you as a manufacturer, this means that you must carefully record and report the carbon emissions of your products. This not only secures your access to the EU market, but also your competitive advantage.</p>
             <div>
@@ -277,12 +277,12 @@
                 </div>
             </div>
         </div>
-        <div @class(['flex','flex-row','bg-[#bfc4cd]','text-wolqedark','justify-center','items-center','min-h-[50vh]'])>
+        <div @class(['flex','flex-col','sm:flex-row','bg-[#bfc4cd]','text-wolqedark','justify-center','items-center','min-h-[50vh]'])>
             <div>
                 <img src="/images/wolqe-hand.webp" alt="Solution Image" @class(['w-[80%]'])>
             </div>
-            <div @class(['flex','flex-col','gap-8','p-8','bg-[#bfc4cd]','text-wolqedark','justify-left','items-left','w-[50%]'])>
-                <h2 @class(['text-4xl'])><span @class(['font-semibold'])>YOU HAVE UNDERSTOOD THE CHALLENGES.</span><br />NOW IT'S TIME FOR THE SOLUTION</h2>
+            <div @class(['flex','flex-row','sm:flex-col','gap-8','p-8','bg-[#bfc4cd]','text-wolqedark','sm:justify-left','sm:items-left','sm:w-[50%]'])>
+                <h2 @class(['text-2xl','sm:text-4xl'])><span @class(['font-semibold'])>YOU HAVE UNDERSTOOD THE CHALLENGES.</span><br />NOW IT'S TIME FOR THE SOLUTION</h2>
                 <p>Verifying your emissions is the key to securing the EU market and gaining a decisive advantage. WOLQE not only supports you with the necessary expertise, but also puts you in touch with our certified partners for professional certification.</p>
             </div>
         </div>
@@ -306,7 +306,7 @@
 </section>
 <section id="services" @class(['bg-wolqelight'])>
     <div @class(['relative','flex','flex-col','gap-16','bg-white','text-wolqedark','justify-center','items-center','min-h-[45vh]','p-16'])>
-        <h2 @class(['text-4xl'])><span @class(['font-semibold'])>YOUR COMPETITIVE ADVANTAGE</span> THROUGH SEAMLESS CBAM REPORTING</h2>
+        <h2 @class(['text-2xl','sm:text-4xl'])><span @class(['font-semibold'])>YOUR COMPETITIVE ADVANTAGE</span> THROUGH SEAMLESS CBAM REPORTING</h2>
         <div>
             The <span @class(['font-semibold'])>EU CBAM</span> isn't a barrier—it's an opportunity. We will support your company to turn compliance into a competitiveadvantage.
             <ul @class(['!list-disc','!list-outside','pl-8','mt-2','flex','flex-col','gap-4'])>
@@ -334,24 +334,24 @@
 </section>
 <section content='' @class(['relative','bg-[url(/public/images/cbam-steps.webp)]','bg-cover','bg-center','min-h-[100vh]','rounded-b-w51'])>
 <div @class(['relative','flex','flex-col','bg-wolqedark77','z-1','min-h-[100vh]','rounded-b-w51'])>
-    <div @class(['relative','flex','flex-col','bg-[url(/public/images/cbam-steps.webp)]','bg-cover','bg-center','z-1','min-h-[100vh]','items-center','justify-center','rounded-b-w51']) style="background-clip: text; -webkit-background-clip: text; color: transparent;">
-        <h2 @class(['text-4xl','text-white'])><span @class(['font-semibold'])>YOUR PATH TO CBAM COMPLIANCE</span> IN 3 SIMPLE STEPS</h2>
-        <div @class(['flex','flex-row','max-w-[40%]','gap-8'])>
-            <div @class(['text-[15vh]','font-extrabold'])>01</div>
+    <div @class(['relative','flex','flex-col','bg-[url(/public/images/cbam-steps.webp)]','bg-cover','bg-center','z-1','min-h-[100vh]','items-center','justify-center','rounded-b-w51','gap-4','sm:gap-0']) style="background-clip: text; -webkit-background-clip: text; color: transparent;">
+        <h2 @class(['text-2xl','sm:text-4xl','text-white'])><span @class(['font-semibold'])>YOUR PATH TO CBAM COMPLIANCE</span> IN 3 SIMPLE STEPS</h2>
+        <div @class(['flex','flex-row','max-w-[90%]','sm:max-w-[40%]','gap-8'])>
+            <div @class(['text-[7vh]','sm:text-[15vh]','font-extrabold'])>01</div>
             <div @class(['text-white','flex','flex-col','justify-end','pb-16'])>
                 <h3 @class(['font-medium'])>Get Your Status with Our CBAM Checker</h3>
                 Use our free tool to instantly determine if your products are affected by the new regulations.
             </div>
         </div>
-        <div @class(['flex','flex-row-reverse','max-w-[40%]','gap-8'])>
-            <div @class(['text-[15vh]','font-extrabold'])>02</div>
+        <div @class(['flex','flex-row-reverse','max-w-[90%]','sm:max-w-[40%]','gap-8'])>
+            <div @class(['text-[7vh]','sm:text-[15vh]','font-extrabold'])>02</div>
             <div @class(['text-white','flex','flex-col','justify-end','pb-16'])>
                 <h3 @class(['font-medium'])>Initial Consultation</h3>
                 Our experts will contact you for a personal consultation to discuss your specific situation and define the right strategy. We are well-versed in the impact assessments of carbon tax and how it affects free trade.
             </div>
         </div>
-        <div @class(['flex','flex-row','max-w-[40%]','gap-8'])>
-            <div @class(['text-[15vh]','font-extrabold'])>03</div>
+        <div @class(['flex','flex-row','max-w-[90%]','sm:max-w-[40%]','gap-8'])>
+            <div @class(['text-[7vh]','sm:text-[15vh]','font-extrabold'])>03</div>
             <div @class(['text-white','flex','flex-col','justify-end','pb-16'])>
                 <h3 @class(['font-medium'])>Certification & Reporting</h3>
                 We guide you through the data collection and preparation process, connecting you with our accredited partners to ensure your data is certified and ready for submission.
@@ -361,50 +361,50 @@
 </div>
 </section>
 <section @class(['relative','flex','flex-col','justify-center','items-center','min-h-[60vh]','p-16','text-white','gap-8'])>
-    <h2 @class(['text-4xl'])><span @class(['font-semibold'])>WOLQE:</span> YOUR PIONEER IN CBAM SOLUTIONS</h2>
+    <h2 @class(['text-2xl','sm:text-4xl'])><span @class(['font-semibold'])>WOLQE:</span> YOUR PIONEER IN CBAM SOLUTIONS</h2>
     <p>
     We are committed to providing clarity in a complex regulatory landscape. Through our extensive network, we provide you with the expertise and resources to navigate the changes in environmental compliance and the emissions trading system.
     </p>
     <!-- slider with blog items -->
-    <div @class(['swiper','w-full','h-full'])>
-        <div @class(['swiper-button-prev','text-wolqedark'])></div>
+    <div @class(['swiper','sm:w-[80%]','h-full'])>
+        <div @class(['swiper-button-prev','text-wolqelight'])></div>
         <div @class(['swiper-wrapper','!h-full'])>
            
                 <div @class(['swiper-slide','flex','justify-center','items-center','h-full'])>
-                    <div @class(['relative','flex','flex-col','justify-start','items-center','rounded-w27','min-w-[400px]','max-w-[600px]','min-h-[400px]','bg-[#bfc4cd22]'])>
+                    <div @class(['relative','flex','flex-col','justify-start','items-center','rounded-w27','sm:min-w-[400px]','max-w-[600px]','min-h-[400px]','bg-[#bfc4cd22]'])>
                         <div @class(['relative','w-full','min-h-[200px]','bg-[url(/public/images/cargo-ship.webp)]','bg-cover','bg-center','rounded-t-w27'])>
                         </div>
                         <div @class(['relative','w-full','text-left','max-w-[580px]','p-6'])>
                             <div @class(['flex','flex-col','gap-4'])>
                                 <h3 @class(['text-md','font-medium'])>CBAM Guide: The Most Important Deadlines and Steps.</h3>
                                 <p @class(['text-md','font-light'])>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laor Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-                                <a href="" @class(['w-[46px]','rounded-[23px]','border-2','border-white','aspect-square','flex','justify-center','items-center','text-4xl','pb-[3px]'])>&raquo;</a>
+                                <a href="{{ route('blog',['post'=> 1])}}" @class(['w-[46px]','rounded-[23px]','border-2','border-white','aspect-square','flex','justify-center','items-center','text-2xl','sm:text-4xl','pb-[3px]'])>&raquo;</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div @class(['swiper-slide','flex','justify-center','items-center','h-full'])>
                     <div @class(['relative','flex','flex-col','justify-start','items-center','rounded-w27','min-w-[400px]','max-w-[600px]','min-h-[400px]','bg-[#bfc4cd22]'])>
-                        <div @class(['relative','w-full','min-h-[200px]','bg-[url(/public/images/cargo-ship.webp)]','bg-cover','bg-center','rounded-t-w27'])>
+                        <div @class(['relative','w-full','min-h-[200px]','bg-[url(/public/images/certification.webp)]','bg-cover','bg-center','rounded-t-w27'])>
                         </div>
                         <div @class(['relative','w-full','text-left','max-w-[580px]','p-6'])>
                             <div @class(['flex','flex-col','gap-4'])>
                                 <h3 @class(['text-md','font-medium'])>CBAM Guide: The Most Important Deadlines and Steps.</h3>
                                 <p @class(['text-md','font-light'])>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laor Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-                                <a href="" @class(['w-[46px]','rounded-[23px]','border-2','border-white','aspect-square','flex','justify-center','items-center','text-4xl','pb-[3px]'])>&raquo;</a>
+                                <a href="{{ route('blog',['post'=> 2])}}" @class(['w-[46px]','rounded-[23px]','border-2','border-white','aspect-square','flex','justify-center','items-center','text-2xl','sm:text-4xl','pb-[3px]'])>&raquo;</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div @class(['swiper-slide','flex','justify-center','items-center','h-full'])>
                     <div @class(['relative','flex','flex-col','justify-start','items-center','rounded-w27','min-w-[400px]','max-w-[600px]','min-h-[400px]','bg-[#bfc4cd22]'])>
-                        <div @class(['relative','w-full','min-h-[200px]','bg-[url(/public/images/cargo-ship.webp)]','bg-cover','bg-center','rounded-t-w27'])>
+                        <div @class(['relative','w-full','min-h-[200px]','bg-[url(/public/images/importers.webp)]','bg-cover','bg-center','rounded-t-w27'])>
                         </div>
                         <div @class(['relative','w-full','text-left','max-w-[580px]','p-6'])>
                             <div @class(['flex','flex-col','gap-4'])>
                                 <h3 @class(['text-md','font-medium'])>CBAM Guide: The Most Important Deadlines and Steps.</h3>
                                 <p @class(['text-md','font-light'])>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laor Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-                                <a href="" @class(['w-[46px]','rounded-[23px]','border-2','border-white','aspect-square','flex','justify-center','items-center','text-4xl','pb-[3px]'])>&raquo;</a>
+                                <a href="{{ route('blog',['post'=> 3])}}" @class(['w-[46px]','rounded-[23px]','border-2','border-white','aspect-square','flex','justify-center','items-center','text-2xl','sm:text-4xl','pb-[3px]'])>&raquo;</a>
                             </div>
                         </div>
                     </div>
@@ -420,7 +420,7 @@
     <!-- slider with blog items -->
 </section>
 <section id="contact" @class(['relative','flex','flex-col','justify-center','items-center','min-h-[30vh]','p-16','text-white','gap-8'])>
-    <h2 @class(['text-4xl'])><span @class(['font-semibold'])>ACT NOW</span> - STAY COMPETITIVE</h2>
+    <h2 @class(['text-2xl','sm:text-4xl'])><span @class(['font-semibold'])>ACT NOW</span> - STAY COMPETITIVE</h2>
     <p>
         The transition phase is in full effect. Ensure your business is prepared for the future of CBAM Europe. A timely response to these regulations will secure your market position and build trust with your EU partners. It's the best way to be proactive about the impact climate change will have on your business.
     </p>
