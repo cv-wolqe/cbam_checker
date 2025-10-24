@@ -112,7 +112,7 @@
         </div>
     </div>
     <div @class(['flex','flex-col','gap-16','p-8','bg-white','text-wolqedark','justify-center','items-center','w-full'])>
-        <h3 @class(['text-xl','sm:text-2xl', 'font-medium' ,'tracking-wide', 'mb-4' , 'leading-[0]' , ])>Why it matters for your business:</h3>
+        <h3 @class(['text-xl','sm:text-2xl', 'font-medium' ,'tracking-wide', 'mb-4' , 'sm:leading-[0]' , ])>Why it matters for your business:</h3>
         <div @class(['grid','grid-cols-1','md:grid-cols-3','text-lg','font-light','w-full','gap-8'])>
             <div @class(['flex','flex-row','gap-4','mb-8'])>
                 <div><img src="/images/finance-icon.svg" @class(['w-24','h-24']) /></div>
