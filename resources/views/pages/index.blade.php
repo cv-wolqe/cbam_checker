@@ -392,7 +392,7 @@
                         <div @class(['relative','w-full','text-left','max-w-[580px]','p-6'])>
                             <div @class(['flex','flex-col','gap-4'])>
                                 <h3 @class(['text-md','font-medium'])>CBAM Guide: The Most Important Deadlines and Steps.</h3>
-                                <p @class(['text-md','font-light'])>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laor Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
+                                <p @class(['text-md','font-light'])>Critical CBAM deadlines for manufacturers exporting to the EU. Learn reporting requirements, penalty structures, and compliance timelines for 2026 to avoid costly fines.</p>
                                 <a href="{{ route('blog',['post'=> 1])}}" @class(['w-[46px]','rounded-[23px]','border-2','border-white','aspect-square','flex','justify-center','items-center','text-2xl','sm:text-4xl','pb-[3px]'])>&raquo;</a>
                             </div>
                         </div>
